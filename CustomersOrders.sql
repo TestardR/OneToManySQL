@@ -33,7 +33,7 @@ SELECT * FROM customers WHERE last_name='George';
 SELECT * FROM orders WHERE customer_id=1;
 
 
--- IMPLIT INNER JOIN 
+-- IMPLICIT INNER JOIN 
 SELECT * FROM orders WHERE customer_id = 
 (
 	SELECT id FROM customers
